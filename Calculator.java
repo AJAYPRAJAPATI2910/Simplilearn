@@ -103,5 +103,20 @@ public class Calculator {
 
         System.out.println("\nMultiplication: " + nOne + " x " + nTwo + " = " + (nOne * nTwo));
     }
+    
+    public static void percentage(){
+    int nOne , nTwo;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Percentage");
+        
+        System.out.print("\nFirst Number: ");
+        nOne = sc.nextInt();
+
+        System.out.print("\nSecond Number: ");
+        nTwo = sc.nextInt();
+
+        
+    }
 }
 //https://github.com/AJAYPRAJAPATI29101998/Simplilearn/edit/master/Calculator.java
